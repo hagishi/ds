@@ -23,4 +23,3 @@
 
 })(jQuery)
 
-var signage = new Signage();
