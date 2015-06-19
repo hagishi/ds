@@ -4,8 +4,8 @@ var babel = require('gulp-babel');
 
 
 gulp.task('babel', function() {
-  //
+  gulp.src('./src/*.js')
+    .pipe(babel())
+    .pipe(gulp.dest('./js'));
 });
-
-
 
